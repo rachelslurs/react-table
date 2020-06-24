@@ -839,7 +839,7 @@ If you want to handle pagination, sorting, and filtering on the server, `react-t
 />
 ```
 
-For a detailed example, take a peek at our <a href="https://react-table.js.org/#/story/server-side-data" target="\_parent">async table mockup</a>
+For a detailed example, take a peek at our <a href="https://rachelslurs.github.io/react-table-v6-docs/#/story/server-side-data" target="\_parent">async table mockup</a>
 
 ## Fully Controlled Component
 
@@ -995,7 +995,7 @@ Alternatively, you can set `filterAll` to `true`, and `filterMethod` will be pas
 
 To completely override the filter that is shown, you can set the `Filter` column option. Using this option you can specify the JSX that is shown. The option is passed an `onChange` method which must be called with the the value that you want to pass to the `filterMethod` option whenever the filter has changed.
 
-See <a href="http://react-table.js.org/#/story/custom-filtering" target="\_parent">Custom Filtering</a> demo for examples.
+See <a href="https://rachelslurs.github.io/react-table-v6-docs/#/story/custom-filtering" target="\_parent">Custom Filtering</a> demo for examples.
 
 ## Component Overrides
 

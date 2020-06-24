@@ -40,7 +40,8 @@
     "prepublish": "yarn build",
     "postpublish": "git push --tags",
     "docs": "yarn watch & cd docs && yarn && yarn start",
-    "docs:build": "yarn build && cd docs && yarn && yarn build"
+    "docs:build": "yarn build && cd docs && yarn && yarn build",
+    "docs:deploy": "yarn build && cd docs && yarn && yarn build && yarn deploy"
   },
   "dependencies": {
     "@types/react-table": "^6.8.5",
